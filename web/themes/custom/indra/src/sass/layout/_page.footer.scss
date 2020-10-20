@@ -1,0 +1,83 @@
+// Page: Footer
+// -----------------------------------------------------------------------------
+.page__footer {
+  background: #0d0d0d;
+  font-family: "formulaCondensedLight";
+  padding: 1rem 0;
+
+
+  .logo-footer {
+    max-width: 100px;
+    margin: 0 auto;
+
+    img {
+      padding-bottom: 2rem;
+    }
+  }
+
+  p, a, a:active {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin: 0;
+    padding-bottom: .25rem;
+    text-transform: uppercase;
+    color: #e5e0d8;
+    text-align: center;
+
+    @media (min-width: 1200px) {
+      text-align: left;
+      font-size: 0.85rem;
+    }
+  }
+
+  ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+
+    li {
+      display: block;
+      padding: .5rem 0;
+    }
+
+    @media (min-width: 1200px) {
+      li {
+        float: left;
+        padding: 0 1rem;
+      }
+    }
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .block-txt-legal {
+    p {
+      color: #bfa434;
+    }
+  }
+
+  .block-social {
+    max-width: 130px;
+    margin: 0 auto;
+    padding-top: 2rem;
+
+    figure {
+      max-width: 25px;
+      margin: 0 -10px;
+    }
+
+    @media (min-width: 1200px) {
+      padding: 0;
+      max-width: 100%;
+
+      .row {
+        position: absolute;
+        margin: 0 -13px;
+      }
+    }
+  }
+}

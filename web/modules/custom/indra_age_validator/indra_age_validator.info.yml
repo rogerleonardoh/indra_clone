@@ -1,0 +1,5 @@
+name: 'Indra age validator'
+type: module
+description: 'Indra age validator'
+core: 8.x
+package: 'INDRA'

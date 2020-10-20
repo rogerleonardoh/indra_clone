@@ -1,0 +1,7 @@
+indra.age_verification:
+  path: '/age-verification'
+  defaults:
+    _form: '\Drupal\indra_age_validator\Form\AgeValidatorForm'
+    _title: 'Para continuar con la experiencia debes ser mayor de edad'
+  requirements:
+    _access: 'TRUE'

@@ -1,0 +1,38 @@
+{#
+/**
+ * @file
+ * Template for the main page.
+ */
+#}
+<div class="page age-verification">
+	<main class="pt-0 pb-5">
+		{% if page.content %}
+			<div class="page__content">
+				<div class="container">
+          <figure class="block-logo">
+            <img src="themes/custom/indra/assets/image/mikes-logo-v2.png" alt="logo-mikes" title="logo-mikes">
+          </figure>
+					{{ page.content }}
+				</div>
+			</div>
+		{% endif %}
+	</main>
+
+	{% if (page.footer_left or page.footer or page.footer_left) %}
+		<footer class="page__footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-3">
+						{{ page.footer_left }}
+					</div>
+					<div class="col-xl-8">
+						{{ page.footer }}
+					</div>
+					<div class="col-xl-1">
+						{{ page.footer_right }}
+					</div>
+				</div>
+			</div>
+		</footer>
+	{% endif %}
+</div>

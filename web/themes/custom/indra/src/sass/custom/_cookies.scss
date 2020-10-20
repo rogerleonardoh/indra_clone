@@ -1,0 +1,53 @@
+#sliding-popup {
+  background: rgba(13, 13, 13, 0.85) !important;
+  padding: 10px 0;
+
+  #popup-text {
+    margin: 0 250px 0 50px;
+    max-width: initial;
+
+    p {
+      color: rgb(229, 224, 216) !important;
+      font-size: 11pt;
+      line-height: 16pt;
+      color: #fff !important;
+      padding-bottom: 5px;
+      font-weight: normal;
+    }
+  }
+
+  .eu-cookie-withdraw-tab {
+    display: none;
+  }
+
+  .eu-cookie-compliance-content {
+    max-width: initial;
+    margin: 0;
+  }
+
+  #popup-buttons {
+    position: absolute;
+    right: 50px;
+
+    .agree-button.eu-cookie-compliance-secondary-button {
+      font-family: Arial, sans-serif;
+      color: rgb(229, 224, 216) !important;
+      background-color: rgb(110, 141, 77);
+      border-color: rgb(89, 126, 68);
+      border: 1px solid #6cc04a;
+      padding: 8px 18px;
+      margin: 0;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    button:before {
+      content: '\2713';
+      padding-right: 3px;
+    }
+
+    .decline-button.eu-cookie-compliance-default-button {
+      display: none;
+    }
+  }
+}

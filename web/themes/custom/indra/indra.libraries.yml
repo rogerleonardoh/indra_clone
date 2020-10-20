@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/indra.style.css: {}
+  js:
+    assets/js/indra.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

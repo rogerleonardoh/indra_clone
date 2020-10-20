@@ -1,0 +1,5 @@
+services:
+  indra_age_validator_event_subscriber:
+    class: \Drupal\indra_age_validator\EventSubscriber\AgeValidatorEventSubscriber
+    tags:
+      - { name: 'event_subscriber' }
